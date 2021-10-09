@@ -82,7 +82,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.protected_contents=true \
     ro.vendor.display.ad=1 \
     ro.vendor.display.sensortype=2 \
-    ro.vendor.display.ad.sdr_calib_data=/vendor/etc/OPPO_OLED_AD_calib.cfg
+    ro.vendor.display.ad.sdr_calib_data=/vendor/etc/OPPO_OLED_AD_calib.cfg \
+    ro.input.video_enabled=false
+
 
 # Offsets
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -161,7 +163,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.data.iwlan.enable=true \
     persist.data.iwlan.rekey=4294967295 \
     ro.telephony.default_network=22,20 \
-    telephony.lteOnCdmaDevice=1
+    telephony.lteOnCdmaDevice=1 \
+    persist.sys.fflag.override.settings_provider_model=false
 
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -170,7 +173,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.lcd.display.screen.underlightsensor.region=624,28,672,76 \
     persist.sys.oppo.fusionlight=true \
     persist.sys.oppo.proximity=true \
-    ro.qti.sensors.wu=false
+    ro.qti.sensors.wu=false \
+    ro.support_one_handed_mode=true
+
 
 # SSR
 PRODUCT_PROPERTY_OVERRIDES += \
