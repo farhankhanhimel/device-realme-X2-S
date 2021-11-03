@@ -76,10 +76,10 @@ PRODUCT_PACKAGES += \
 
 # Doze
 PRODUCT_PACKAGES += \
-    RealmeProximityHelper 
-    
+    RealmeHardwareAssist
+
 # RealmeParts
-$(call inherit-product, device/realme/X2/RealmeParts/parts.mk)    
+$(call inherit-product, device/realme/X2/RealmeParts/parts.mk)
 
 # DRM
 PRODUCT_PACKAGES += \
