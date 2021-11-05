@@ -20,7 +20,6 @@ package com.realmeparts;
 import android.app.Activity;
 import android.app.Fragment;
 import android.os.Bundle;
-import android.view.MenuItem;
 
 public class DeviceSettingsActivity extends Activity {
 
@@ -29,8 +28,6 @@ public class DeviceSettingsActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        getActionBar().setDisplayHomeAsUpEnabled(true);
 
         Fragment fragment = getFragmentManager().findFragmentById(android.R.id.content);
         if (fragment == null) {
@@ -41,17 +38,5 @@ public class DeviceSettingsActivity extends Activity {
         } else {
             mDeviceSettingsFragment = (DeviceSettings) fragment;
         }
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case android.R.id.home:
-                finish();
-                return true;
-            default:
-                break;
-        }
-        return super.onOptionsItemSelected(item);
     }
 }
