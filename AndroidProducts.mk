@@ -15,4 +15,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_X2.mk
+    $(LOCAL_DIR)/nad_X2.mk
+
+
+COMMON_LUNCH_CHOICES := \
+    nad_X2-eng \
+    nad_X2-user \
+    nad_X2-userdebug
