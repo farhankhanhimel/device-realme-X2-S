@@ -1,5 +1,5 @@
 # Override Display Density
-ro.sf.lcd_density=480
+ro.sf.lcd_density=421
 
 # Perf
 ro.vendor.qti.core_ctl_min_cpu=4
