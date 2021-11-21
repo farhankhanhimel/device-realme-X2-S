@@ -84,6 +84,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.display.sensortype=2 \
     ro.vendor.display.ad.sdr_calib_data=/vendor/etc/OPPO_OLED_AD_calib.cfg \
     ro.input.video_enabled=false
+    ro.hwui.use_vulkan=true
+    graphics.gpu.profiler.support=true
+    renderthread.skia.reduceopstasksplitting=true
+    debug.hwui.renderer=skiavk
 
 
 # Offsets
