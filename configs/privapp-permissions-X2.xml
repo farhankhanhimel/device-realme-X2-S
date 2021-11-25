@@ -139,9 +139,22 @@
         <permission name="android.permission.MANAGE_USERS"/>
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/> 
         <permission name="android.permission.MANAGE_USB"/>
-        <permission name="android.permission.BACKUP"/>           
-    </privapp-permissions>       
+        <permission name="android.permission.BACKUP"/>    
+    </privapp-permissions>
 
+    <privapp-permissions package="com.android.sdm.plugins.dcmo">
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>        
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>   
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.sdm.plugins.connmo">
+        <permission name="android.permission.WRITE_APN_SETTINGS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>    
+    
     <privapp-permissions package="com.verizon.obdm"> 
        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
     </privapp-permissions> 
