@@ -15,10 +15,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/syberia_X2.mk
+    $(LOCAL_DIR)/superior_X2.mk
 
 
 COMMON_LUNCH_CHOICES := \
-    syberia_X2-eng \
-    syberia_X2-user \
-    syberia_X2-userdebug
+    superior_X2-eng \
+    superior_X2-user \
+    superior_X2-userdebug
