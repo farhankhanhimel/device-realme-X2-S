@@ -6,8 +6,8 @@
 
 $(call inherit-product, device/realme/X2/device.mk)
 
-# Inherit some common Octavi stuff.
-$(call inherit-product, vendor/superior/config/common_full_phone.mk)
+# Inherit some common Superior stuff.
+$(call inherit-product, vendor/superior/config/common.mk)
 
 SUPERIOR_BUILD_TYPE=UNOFFICIAL
 SUPERIOR_DEVICE_MAINTAINER=FARHAN
