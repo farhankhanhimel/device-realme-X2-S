@@ -15,10 +15,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/fluid_X2.mk
+    $(LOCAL_DIR)/superior_X2.mk
 
 
 COMMON_LUNCH_CHOICES := \
-    fluid_X2-eng \
-    fluid_X2-user \
-    fluid_X2-userdebug
+    superior_X2-eng \
+    superior_X2-user \
+    superior_X2-userdebug
