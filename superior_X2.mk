@@ -6,18 +6,18 @@
 
 $(call inherit-product, device/realme/X2/device.mk)
 
-# Inherit some common Fluid stuff.
-$(call inherit-product, vendor/fluid/config/common_full_phone.mk)
+# Inherit some common Superior stuff.
+$(call inherit-product, vendor/superior/config/common.mk)
 
-FLUID_BUILD_TYPE=UNOFFICIAL
-FLUID_DEVICE_MAINTAINER=FARHAN
+SUPERIOR_BUILD_TYPE=UNOFFICIAL
+SUPERIOR_DEVICE_MAINTAINER=FARHAN
 
 TARGET_GAPPS_ARCH := arm64
 WITH_GAPPS := true
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# FluidOS stuff
+# SuperiorOS stuff
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USES_BLUR := false
 TARGET_WANTS_FOD_ANIMATIONS := true
@@ -25,7 +25,7 @@ TARGET_WANTS_FOD_ANIMATIONS := true
 
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := fluid_X2
+PRODUCT_NAME := superior_X2
 PRODUCT_DEVICE := X2
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme X2
