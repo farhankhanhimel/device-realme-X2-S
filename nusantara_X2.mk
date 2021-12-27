@@ -7,10 +7,10 @@
 $(call inherit-product, device/realme/X2/device.mk)
 
 # Inherit some common Octavi stuff.
-$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
-OCTAVI_BUILD_TYPE=OFFICIAL
-OCTAVI_DEVICE_MAINTAINER=CHAITANYA
+NUSANTARA_BUILD_TYPE=UNOFFICIAL
+NUSANTARA_DEVICE_MAINTAINER=FARHAN
 
 TARGET_GAPPS_ARCH := arm64
 WITH_GAPPS := true
@@ -25,7 +25,7 @@ TARGET_WANTS_FOD_ANIMATIONS := true
 
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := octavi_X2
+PRODUCT_NAME := nusantara_X2
 PRODUCT_DEVICE := X2
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme X2
