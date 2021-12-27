@@ -10,15 +10,17 @@ $(call inherit-product, device/realme/X2/device.mk)
 $(call inherit-product, vendor/nusantra/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
-NAD_BUILD_TYPE := unOFFICIAL
-#USE_GAPPS ?= true
-#TARGET_GAPPS_ARCH := arm64
+NUSANTARA_BUILD_TYPE := unOFFICIAL
+NUSANTARA_DEVICE_MAINTAINER=FARHAN
+
+TARGET_GAPPS_ARCH := arm64
+WITH_GAPPS := true
 TARGET_FOD_ANIMATIONS := true
 
 
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := cherish_X2
+PRODUCT_NAME := nusantara_X2
 PRODUCT_DEVICE := X2
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme X2
