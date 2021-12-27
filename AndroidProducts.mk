@@ -15,10 +15,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nusantara_X2.mk
+    $(LOCAL_DIR)/nad_X2.mk
 
 
 COMMON_LUNCH_CHOICES := \
-    nusantara_X2-eng \
-    nusantara_X2-user \
-    nusantara_X2-userdebug
+    nad_X2-eng \
+    nad_X2-user \
+    nad_X2-userdebug
