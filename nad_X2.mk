@@ -7,7 +7,7 @@
 $(call inherit-product, device/realme/X2/device.mk)
 
 # Inherit some common Cherish stuff.
-$(call inherit-product, vendor/nad/config/common.mk)
+$(call inherit-product, vendor/nusantara/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 NAD_BUILD_TYPE :=UNOFFICIAL
