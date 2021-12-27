@@ -7,7 +7,7 @@
 $(call inherit-product, device/realme/X2/device.mk)
 
 # Inherit some common Cherish stuff.
-$(call inherit-product, vendor/nusantra/config/common.mk)
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 NAD_BUILD_TYPE := unOFFICIAL
@@ -20,7 +20,7 @@ TARGET_FOD_ANIMATIONS := true
 
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := nad_X2
+PRODUCT_NAME := nusantara_X2
 PRODUCT_DEVICE := X2
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme X2
