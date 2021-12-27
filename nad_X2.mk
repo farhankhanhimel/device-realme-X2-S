@@ -10,8 +10,8 @@ $(call inherit-product, device/realme/X2/device.mk)
 $(call inherit-product, vendor/nusantra/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
-NUSANTARA_BUILD_TYPE := unOFFICIAL
-NUSANTARA_DEVICE_MAINTAINER=FARHAN
+NAD_BUILD_TYPE := unOFFICIAL
+NAD_DEVICE_MAINTAINER=FARHAN
 
 TARGET_GAPPS_ARCH := arm64
 WITH_GAPPS := true
